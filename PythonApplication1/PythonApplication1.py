@@ -18,6 +18,7 @@ if password:
 tn.write("show run\n")
  
 print (tn.read_all().decode('ascii'))
+#test
 
 
 
